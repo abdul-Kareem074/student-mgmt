@@ -340,34 +340,6 @@ ApplicationRecord is the base class for ALL models in Rails. This file is critic
 
 ---
 
-## 🛠️ Technologies & Tools
-
-| Component | Version |
-|-----------|---------|
-| Ruby | 3.2.2 |
-| Rails | 7.1.6 |
-| SQLite3 | Latest |
-| Puma | 7.1.0 |
-| Bundler | Latest |
-
----
-
-## 📊 Project Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Models Created** | 7 new + 1 existing (8 total) |
-| **Controllers Created** | 7 new + 1 existing (8 total) |
-| **View Files** | 5 per resource = 35 new views |
-| **Database Tables** | 9 (8 resources + 1 join table) |
-| **Foreign Keys** | 5 relationships |
-| **RESTful Routes** | 56 total endpoints |
-| **Lines of Code** | ~1500+ new |
-| **Validations** | 20+ validation rules |
-| **Duration** | 1 session |
-
----
-
 ## 🔗 Project Structure
 
 ```
