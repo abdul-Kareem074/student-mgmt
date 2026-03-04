@@ -14,7 +14,7 @@ This is a full-featured management system built with Ruby on Rails 7.1.6, design
 
 ---
 
-## 📋 Day 1: Initial Setup & Student Management
+##  Initial Setup & Student Management
 
 ### What We Built:
 - ✅ Created initial Rails application structure
@@ -29,7 +29,7 @@ This is a full-featured management system built with Ruby on Rails 7.1.6, design
 
 ---
 
-## 📊 Day 2: Comprehensive Management System Expansion
+## Comprehensive Management System Expansion
 
 ### What We Built:
 Massive expansion adding 7 new resource types with complete management functionality!
@@ -64,12 +64,12 @@ Key Relationships:
 - Assemblies has_and_belongs_to_many parts (via join table)
 ```
 
-### Hashtags for Day 2:
-`#Day2 #ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
+
+` #ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
 
 ---
 
-## 📦 Installation & Setup
+
 
 ### Prerequisites:
 - Ruby 3.2.2
