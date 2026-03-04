@@ -1,2 +1,138 @@
-<h1>Wel</h1>
-<p>Your app is up and running.</p>
+<div class="welcome-container">
+  <h1>Management System Dashboard</h1>
+  <p>Manage all your resources in one place</p>
+  
+  <div class="resources-grid">
+    <div class="resource-card">
+      <h3>Authors</h3>
+      <p>Manage authors and their information</p>
+      <%= link_to 'View Authors', authors_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Author', new_author_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Books</h3>
+      <p>Manage books and their details</p>
+      <%= link_to 'View Books', books_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Book', new_book_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Video Channels</h3>
+      <p>Manage video channels</p>
+      <%= link_to 'View Channels', video_channels_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Channel', new_video_channel_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Channel Subscriptions</h3>
+      <p>Manage subscriptions</p>
+      <%= link_to 'View Subscriptions', channel_subscribes_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Subscription', new_channel_subscribe_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Assemblies</h3>
+      <p>Manage assemblies and components</p>
+      <%= link_to 'View Assemblies', assemblies_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Assembly', new_assembly_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Parts</h3>
+      <p>Manage individual parts</p>
+      <%= link_to 'View Parts', parts_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Part', new_part_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Posts</h3>
+      <p>Manage blog posts</p>
+      <%= link_to 'View Posts', posts_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Post', new_post_path, class: 'btn btn-success' %>
+    </div>
+
+    <div class="resource-card">
+      <h3>Students</h3>
+      <p>Manage student information</p>
+      <%= link_to 'View Students', students_path, class: 'btn btn-primary' %>
+      <%= link_to 'Add Student', new_student_path, class: 'btn btn-success' %>
+    </div>
+  </div>
+</div>
+
+<style>
+  .welcome-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .welcome-container h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+
+  .welcome-container p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .resource-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  .resource-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .resource-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+</style>

@@ -1,0 +1,86 @@
+<div class="container">
+  <h1>Student Management System</h1>
+  
+  <%= link_to 'Add New Student', new_student_path, class: 'btn btn-primary' %>
+  
+  <% if @students.any? %>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @students.each do |student| %>
+          <tr>
+            <td><%= student.name %></td>
+            <td><%= student.email %></td>
+            <td><%= student.phone %></td>
+            <td><%= truncate(student.address, length: 30) %></td>
+            <td>
+              <%= link_to 'View', student_path(student), class: 'btn btn-info btn-sm' %>
+              <%= link_to 'Edit', edit_student_path(student), class: 'btn btn-warning btn-sm' %>
+              <%= link_to 'Delete', student_path(student), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% else %>
+    <p>No students found. <%= link_to 'Create one now!', new_student_path %></p>
+  <% end %>
+  
+  <%= link_to 'Back to Home', root_path, class: 'btn btn-secondary' %>
+</div>
+
+<style>
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .btn {
+    padding: 8px 12px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  .btn-warning {
+    background-color: #ffc107;
+    color: black;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  .table th {
+    background-color: #f9f9f9;
+  }
+</style>

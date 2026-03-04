@@ -1,0 +1,110 @@
+nohup: ignoring input
+=> Booting Puma
+=> Rails 7.1.6 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 7.1.0 ("Neon Witch")
+* Ruby version: ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 29942
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:46:48 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthorsController#index as */*
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.2ms | Allocations: 190)
+Completed 200 OK in 14ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 11971)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:46:53 +0530
+Processing by AuthorsController#index as */*
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 307)
+
+
+Started GET "/books" for 127.0.0.1 at 2026-03-04 14:47:01 +0530
+Processing by BooksController#index as */*
+  Rendering books/index.html.erb
+  Rendered books/index.html.erb (Duration: 0.4ms | Allocations: 92)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1728)
+
+
+Started GET "/posts" for 127.0.0.1 at 2026-03-04 14:47:01 +0530
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb
+  Rendered posts/index.html.erb (Duration: 0.3ms | Allocations: 92)
+Completed 200 OK in 8ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1422)
+
+
+Started GET "/" for 127.0.0.1 at 2026-03-04 14:47:01 +0530
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (Duration: 1.2ms | Allocations: 1092)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1627)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:47:12 +0530
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 300)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:47:31 +0530
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 297)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:47:32 +0530
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 297)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:48:05 +0530
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Started GET "/books" for 127.0.0.1 at 2026-03-04 14:48:18 +0530
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb
+  Rendered books/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2026-03-04 14:48:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/welcome/index" for 127.0.0.1 at 2026-03-04 14:48:31 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (Duration: 0.3ms | Allocations: 341)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 621)
+
+
+Started GET "/authors" for 127.0.0.1 at 2026-03-04 14:48:34 +0530
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb
+  Rendered authors/index.html.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 297)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2026-03-04 14:48:44 +0530
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb
+  Rendered books/new.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 15ms (Views: 0.7ms | ActiveRecord: 6.0ms | Allocations: 6658)
+
+
