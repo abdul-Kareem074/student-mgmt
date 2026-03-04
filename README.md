@@ -64,8 +64,8 @@ Key Relationships:
 - Assemblies has_and_belongs_to_many parts (via join table)
 ```
 
-### Hashtags for Day 2:
-`#Day2 #ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
+### Hashtags for Next step i done:
+`#ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
 
 ---
 
