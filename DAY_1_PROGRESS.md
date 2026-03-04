@@ -199,20 +199,6 @@ Implemented initial welcome page with:
 - **ERB** - Template language
 - **Puma** - Web server
 
----
-
-## 📊 Code Statistics
-
-| Metric | Value |
-|--------|-------|
-| Models Created | 1 |
-| Controllers Created | 1 |
-| Views Created | 5 |
-| Database Tables | 1 |
-| Routes | 7 RESTful routes |
-| Lines of Code | ~200 |
-
----
 
 ## 🔗 Key Files
 
