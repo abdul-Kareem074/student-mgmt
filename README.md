@@ -14,7 +14,7 @@ This is a full-featured management system built with Ruby on Rails 7.1.6, design
 
 ---
 
-## 📋 Day 1: Initial Setup & Student Management
+## 📋 First step i done:- Initial Setup & Student Management
 
 ### What We Built:
 - ✅ Created initial Rails application structure
@@ -29,7 +29,7 @@ This is a full-featured management system built with Ruby on Rails 7.1.6, design
 
 ---
 
-## 📊 Day 2: Comprehensive Management System Expansion
+##  Second i done : Comprehensive Management System Expansion
 
 ### What We Built:
 Massive expansion adding 7 new resource types with complete management functionality!
@@ -43,7 +43,7 @@ Massive expansion adding 7 new resource types with complete management functiona
 6. **Parts Management** - has_and_belongs_to_many assemblies
 7. **Posts Management** - belongs_to author, blog-style posts
 
-### Technical Achievements:
+### Technicalities:
 - ✅ Created 7 models with proper relationships
 - ✅ Implemented many-to-many relationship with join table
 - ✅ Generated 7 RESTful controllers
@@ -64,14 +64,14 @@ Key Relationships:
 - Assemblies has_and_belongs_to_many parts (via join table)
 ```
 
-### Hashtags for Day 2:
-`#Day2 #ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
+### Hashtags for Next step i done:
+`#ManagementSystem #RubyOnRails7 #FullStackDevelopment #RESTfulAPI #DatabaseDesign #ManyToMany #AuthorBooks #VideoChannels #AssemblyParts #PostManagement #CRUD #ModelRelationships #RailsMigrations`
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
-### Prerequisites:
+### Prerequisites we need:
 - Ruby 3.2.2
 - Rails 7.1.6
 - SQLite3
@@ -132,7 +132,7 @@ Key Relationships:
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Framework:** Ruby on Rails 7.1.6
 - **Language:** Ruby 3.2.2
@@ -142,7 +142,7 @@ Key Relationships:
 
 ---
 
-## 📝 Project Statistics
+##  Project Statistics
 
 - **Models Created:** 8
 - **Controllers Created:** 8
@@ -153,7 +153,7 @@ Key Relationships:
 
 ---
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 1. User Authentication (Devise)
 2. Authorization (Pundit/CanCanCan)
@@ -168,7 +168,7 @@ Key Relationships:
 
 ---
 
-## 🐛 Fixed Issues
+##  Fixed Issues
 
 - ✅ ApplicationRecord corruption bug fixed
 - ✅ Database schema reset and properly migrated
